@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exprerience{
+    border: 1px dotted green;
+    text-align: center;
+    position: relative;
+    padding: 6%;
+}
+
+.fa-solid{
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%);
+    bottom: 12%;
+    font-size: 8vh;
+}
+.exprerience h1{
+    font-size: 9vh;
+    color: green;
+    padding: 3%;
+}
+.exprerience h2{
+    font-weight: 100;
+}
